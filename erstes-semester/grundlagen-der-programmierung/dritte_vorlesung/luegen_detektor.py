@@ -1,15 +1,5 @@
-eingabe_a = int(input("Beantworten Sie die Frage mit Ja? (1/0): "))
-eingabe_b = int(input("Beantworten Sie die Frage mit Ja? (1/0): "))
-
-if eingabe_a == 1:
-    eingabe_a = True
-else: 
-    eingabe_a = False
-
-if eingabe_b == 1:
-    eingabe_b = True
-else:
-    eingabe_b = False    
+eingabe_a = int(input("Beantworten Sie die Frage mit Ja? (1/0): ")) == 1
+eingabe_b = int(input("Beantworten Sie die Frage mit Ja? (1/0): ")) == 1
 
 if eingabe_a == eingabe_b:
     print("Die beiden Befragten sind sich einig.")
