@@ -1,7 +1,4 @@
 def erstelle_tannenbaum(breite):
-    """
-    Erstellt einen Tannenbaum mit der angegebenen Breite.
-    """
     for i in range(1, breite + 1, 2):
         print(" " * ((breite - i) // 2) + "*" * i)
 
